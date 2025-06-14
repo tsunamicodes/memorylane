@@ -1,0 +1,45 @@
+body {
+  font-family: 'Fredoka', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo-item {
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background: white;
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  margin: 0 5px;
+}
