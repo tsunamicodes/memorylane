@@ -149,4 +149,15 @@
 
   <script src="script.js"></script>
 </body>
+  <script>
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      const welcomePage = document.getElementById("welcome-page");
+      const galleryPage = document.getElementById("gallery-page-1");
+
+      welcomePage.classList.remove("active");
+      galleryPage.classList.add("active");
+    }
+  });
+</script>
 </html>
